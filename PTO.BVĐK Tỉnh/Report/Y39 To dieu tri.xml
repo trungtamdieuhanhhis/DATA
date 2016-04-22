@@ -1,0 +1,679 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>KhoiVV</Author>
+  <LastAuthor>Nguyen Thanh Trung</LastAuthor>
+  <LastPrinted>2012-06-24T11:25:13Z</LastPrinted>
+  <Created>1996-10-14T23:33:28Z</Created>
+  <LastSaved>2012-03-22T18:17:22Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9300</WindowHeight>
+  <WindowWidth>15135</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>120</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m64992168">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="m64992188">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="m64992208">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m64992228">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="m64992248">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Underline="Single"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="m64992268">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Underline="Single"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m64992288">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11" ss:Italic="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="18" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11" ss:Italic="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Free 3 of 9" x:Family="Modern" ss:Size="30"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="18" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Free 3 of 9" x:Family="Modern" ss:Size="30"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="16" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11" ss:Italic="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11" ss:Italic="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s129">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s130">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11" ss:Italic="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s132">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12" ss:Italic="1"/>
+  </Style>
+  <Style ss:ID="s133">
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman"/>
+  </Style>
+  <Style ss:ID="s135">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s136">
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s138">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="BA02">
+  <Names>
+   <NamedRange ss:Name="Print_Area" ss:RefersTo="=BA02!R1C1:R24C33"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="33" ss:ExpandedRowCount="24" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="11.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="17.25" ss:Span="29"/>
+   <Column ss:Index="32" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="8.25"/>
+   <Column ss:StyleID="s62" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="5.25"/>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:Index="3" ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="7" ss:StyleID="s63"><Data ss:Type="String">${SoYTe}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:MergeAcross="13" ss:MergeDown="2" ss:StyleID="s65"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><B>TỜ ĐIỀU TRỊ</B><Font>&#10;</Font><I><Font
+        html:Size="13">(số .............)</Font></I></ss:Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:MergeAcross="8"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Mã bệnh án: <I>${SoNgoaiTru}</I></ss:Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s63"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="7" ss:MergeDown="1" ss:StyleID="s68"><Data
+      ss:Type="String">${TenDonVi}</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="24" ss:MergeAcross="8" ss:MergeDown="1" ss:StyleID="s70"><Data
+      ss:Type="String">*${SoNgoaiTru}*</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s70"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="33" ss:StyleID="s70"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="3">
+    <Cell ss:Index="2" ss:StyleID="s68"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s68"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s68"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s68"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s68"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s68"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s68"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s68"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s65"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s65"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s65"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s65"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s65"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s65"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s65"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s65"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s65"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s65"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s65"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s65"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s65"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s65"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s72"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s70"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s70"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s70"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s70"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s70"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s70"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s70"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s70"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s73"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s74"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="24" ss:StyleID="s75"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s75"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s75"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="16" ss:StyleID="s78"><ss:Data
+      ss:Type="String" x:Ticked="1" xmlns="http://www.w3.org/TR/REC-html40">- Họ tên người bệnh: <B><I>${PatientName}</I></B></ss:Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Tuổi: <I>${Tuoi}</I></ss:Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Giới tính: ${GioiTinh}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="2.25">
+    <Cell ss:Index="2" ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s82"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s82"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s82"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s82"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s82"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s82"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s82"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="14" ss:StyleID="s78"><ss:Data
+      ss:Type="String" x:Ticked="1" xmlns="http://www.w3.org/TR/REC-html40">- Khoa: <I>${BA_TenKhoa}</I></ss:Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s82"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Buồng: <I>${Buong}</I><Font>   Giường: </Font><I>${Giuong}</I></ss:Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s78"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="2.25">
+    <Cell ss:Index="7" ss:StyleID="s84"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="21" ss:StyleID="s85"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="29" ss:MergeDown="1" ss:StyleID="m64992288"><ss:Data
+      ss:Type="String" x:Ticked="1" xmlns="http://www.w3.org/TR/REC-html40">- Chẩn đoán: <I>${ChanDoanBanDau}</I></ss:Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="33" ss:StyleID="s77"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="33" ss:StyleID="s77"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="m64992168"><Data
+      ss:Type="String">Ngày giờ</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:MergeAcross="13" ss:MergeDown="1" ss:StyleID="m64992188"><Data
+      ss:Type="String">DIỄN BIẾN BỆNH</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:MergeAcross="13" ss:MergeDown="1" ss:StyleID="m64992208"><Data
+      ss:Type="String">Y LỆNH</Data><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:AutoFitHeight="0" ss:Height="409.5">
+    <Cell ss:Index="2" ss:MergeAcross="2" ss:StyleID="m64992228"><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:MergeAcross="13" ss:StyleID="m64992248"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><U>Sinh hiệu</U><Font>:&#10;Mạch: ${SERVICE_MACH}    Nhiệt độ: ${SERVICE_NHIETDO}    Nhịp thở: ${SERVICE_NHIPTHO}&#10;Huyết áp: ${SERVICE_HA_TAMTHU}       Cân nặng: ${SERVICE_CANNANG}&#10;&#10;</Font><U>Khám</U><Font>:&#10;Toàn thân: ${SERVICE_KHAMTOANTHAN}&#10;Bộ phận: ${SERVICE_KHAMBOPHAN}&#10;&#10;</Font><U>Kết quả cận lâm sàng</U><Font>:&#10;${SERVICE_KETQUACANLAMSANG}&#10;&#10;</Font><U>Chẩn đoán</U><Font>: </Font><B>${SERVICE_CHANDOAN}</B></ss:Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:MergeAcross="13" ss:StyleID="m64992268"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><U>Xử trí</U><Font>: ${SERVICE_XULY}&#10;&#10;</Font><U>Đơn thuốc</U><Font>: &#10;${SERVICE_XULY_THUOC}</Font></ss:Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s129"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s130"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s130"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s130"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s130"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s130"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s130"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s130"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s130"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s130"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s130"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s130"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s130"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s130"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="11" ss:StyleID="s132"><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:MergeAcross="11" ss:StyleID="s132"><Data ss:Type="String">${CurrentDateTime}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="11" ss:StyleID="s135"><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:MergeAcross="11" ss:StyleID="s135"><Data ss:Type="String">BÁC SỸ ĐIỀU TRỊ</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s136"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s136"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s136"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s136"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s136"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s136"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s136"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s136"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s136"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s136"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s136"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s136"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s136"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="11" ss:StyleID="s138"><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s133"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s136"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:MergeAcross="11" ss:StyleID="s138"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Họ tên: <I>${BacSiKham}</I></ss:Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:CenterHorizontal="1"/>
+    <Header x:Margin="0"/>
+    <Footer x:Margin="0"/>
+    <PageMargins x:Bottom="0" x:Left="0" x:Right="0" x:Top="0"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>1200</HorizontalResolution>
+    <VerticalResolution>1200</VerticalResolution>
+   </Print>
+   <ShowPageBreakZoom/>
+   <PageBreakZoom>100</PageBreakZoom>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+     <RangeSelection>R12C2:R13C31</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
